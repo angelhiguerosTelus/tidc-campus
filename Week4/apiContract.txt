@@ -1,0 +1,18 @@
+    GET /users/:id
+
+    # User found
+    HTTP Status code: 200
+
+    {
+        "id": 123, 
+        "firstName": "Angel",
+        "lastName": "Higueros"
+    }
+
+    # User Not found
+    HTTP Status code: 404
+
+    {
+        "erroCode": 404, 
+        "errorMessage": "User not found"
+    }
